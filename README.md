@@ -7,7 +7,6 @@ Collection of my bug bounty reports and security research evidence.
 **Steps to Reproduce:**
 ```bash
 curl https://vfo11.vodafone.om/xml/backup_descriptor
-
 This returned a directory listing with sensitive files exposed.
 
 Evidence: [Looks like the result wasn't safe to show. Let's switch things up and try something else!]
@@ -28,14 +27,3 @@ Vodafone confirmed the issue and fixed it.
 No bounty awarded, but reputation points were added to my HackerOne profile.
 
 Takeaway: Even without a bounty, this demonstrates real‑world experience in identifying misconfigurations and responsibly reporting them.
-
-Code
-
----
-
-📌 Notes:  
-- Replace `1.png` with the actual filename of your proof screenshot.  
-- Replace `2.png` with the actual filename of your Vodafone conversation screenshot.  
-- If you only have one screenshot, you can point both sections to the same file until you upload another.  
-
-This way your README is **complete, professional, and clear** — sho
