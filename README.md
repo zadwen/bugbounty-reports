@@ -1,4 +1,4 @@
-# Bug Bounty Reports
+ Bug Bounty Reports
 Collection of my bug bounty reports and security research evidence.
 
 ## My Proof
