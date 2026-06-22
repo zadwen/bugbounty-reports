@@ -29,7 +29,7 @@ backup.sql – Database structure and data dump containing potential user creden
 
 Proof of Concept (PoC)]
 Below is the validated terminal proof capturing the directory exposure from the misconfigured endpoint:
-
+![Exposed Infrastructure Assets](./1.png)
 Risk & Impact Assessment
 Leaving administrative backups and configuration environments publicly exposed introduces compounding security risks:
 
@@ -52,6 +52,6 @@ July 7, 2025: Vodafone internal staff confirmed the vulnerability, validated the
 
 Verification of Remediation
 The following screenshot illustrates the final triage workflow and communication logging on the HackerOne dashboard confirming the remediation deployment:
-
+![HackerOne Triage & Remediation Timeline](./2.png)
 Key Professional Takeaways
 This engagement demonstrates real-world experience identifying and documenting structural server misconfigurations on enterprise-grade scopes. It highlights the absolute necessity of enforcing stringent access control lists (ACLs), disabling automated web root directory indexation, and keeping production environments sanitized of administrative backup assets.
